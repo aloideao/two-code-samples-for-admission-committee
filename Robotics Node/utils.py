@@ -1,5 +1,5 @@
 #!/usr/bin/env python3.8
-
+ 
 import numpy as np 
 import cv2 
 def crop(x1,y1,x2,y2,ids,size_x=448,size_y=448,h=1080,width=2400):
