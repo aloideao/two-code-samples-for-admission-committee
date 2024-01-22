@@ -39,7 +39,7 @@ class AnalysisNode:
             device='cuda:0',
             fp16=False, min_hits=2, iou_threshold=0.1
         )
-        self.tracker_2 = CUSTOMIZEDTRACKER(
+        self.tracker_2 = Different_CUSTOMIZEDTRACKER(
             model_weights=tracker_path,
             device='cuda:0',
             fp16=False, min_hits=1, iou_threshold=0.1
